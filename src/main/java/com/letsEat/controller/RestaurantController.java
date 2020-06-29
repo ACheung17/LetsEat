@@ -52,9 +52,10 @@ public class RestaurantController {
         restaurantService.delete(name);
         return "Deleted: " + name;
     }
-    @DeleteMapping("restaurants/deleteAll")
-    public String deleteAll(){
-        restaurantService.deleteAll();
-        return "Deleted all records.";
-    }
+    
+//    @DeleteMapping("restaurants/deleteAll")
+//    public String deleteAll(){
+//        restaurantService.deleteAll();
+//        return "Deleted all records.";
+//    }
 }
