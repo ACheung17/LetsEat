@@ -1,0 +1,32 @@
+body {
+    background-image: url("images/back2.jpg");
+    background-size: 105%;
+    background-position: center;
+}
+.navbar-brand{
+    color: white;
+    font-family: "Contrail One";
+}
+.nav-link {
+    color: white;
+    font-family: "Lato";
+}
+
+.homeContainer{
+    background-color: white;
+    font-family: "Lato";
+    font-size: 30px;
+    margin: 5% auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+.insideContainer{
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.dropdown{
+    display: inline;
+}
