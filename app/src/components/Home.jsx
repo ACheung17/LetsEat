@@ -14,7 +14,7 @@ function Home() {
         // console.log(restaurants);
     }
 
-    fetch("https://infinite-dawn-76227.herokuapp.com/restaurants")
+    fetch("http://localhost:8080/restaurants")
         .then(res => res.json())
         .then(data => setRestaurants(data)
     );
